@@ -5,6 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Python3_ML_Bobo" />
+    <orderEntry type="module" module-name="Leetcode" />
+    <orderEntry type="module" module-name="pandas_cub-master" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
