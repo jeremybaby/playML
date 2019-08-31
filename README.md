@@ -1,6 +1,5 @@
 # playML
 基于 **Numpy** & **Python3** 模拟scikit-learn实现基本的Machine Learning算法
-- **playML**目录下为独立封装的Machine Learning算法
 ## How to Use
  ```python
 from playML.LinearRegression import LinearRegression
