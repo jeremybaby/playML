@@ -1,6 +1,7 @@
 import numpy as np
 from .metrics import r2_score
 
+# for-loop 进行计算
 class SimpleLinearRegression1:
 
     def __init__(self):
@@ -48,6 +49,7 @@ class SimpleLinearRegression1:
     def __repr__(self):
         return "SimpleLinearRegression1()"
 
+# 向量化进行计算
 class SimpleLinearRegression:
     def __init__(self):
         """初始化Simple Linear Regression 模型"""

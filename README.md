@@ -13,11 +13,13 @@
     - 只能解决回归问题
     - 对数据有假设：线性
   - [使用简单线性回归预测Boston房价与房间数量的关系](https://github.com/jeremybaby/playML/blob/master/02_linear_regression/03_measure_and_predict_Boston_house_data.ipynb)
+    - **Method**：[求偏导数得到的极值点](https://github.com/jeremybaby/playML/blob/master/playML/SimpleLinearRegression.py)
+      - 优化: 向量化
     - 评价指标: 
         - MSE RMSE MAE 
         - R^2 = 0.6129316803937324
-  - [使用多元线性回归预测Boston房价与13个属性的关系]()
-    - **Method**：Normal Equation
+  - [使用多元线性回归预测Boston房价与13个特征的关系]()
+    - **Method**：[Normal Equation](https://github.com/jeremybaby/playML/blob/master/playML/LinearRegression.py)
         - 缺点：时间复杂度为O(n^3)(优化后为O(n^2.4))
     - **评价指标**：
         - R^2 = 0.8129794056212832
