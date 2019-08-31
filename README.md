@@ -8,6 +8,7 @@ reg.fit_normal(X_train, y_train)
  ```
 <hr/>
 
+## Content
 ### 1. KNN
   - **Feature**
     - 非参数学习
