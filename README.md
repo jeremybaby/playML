@@ -41,9 +41,13 @@ reg.fit_normal(X_train, y_train)
           - 关于RM，可否进一步采集房屋面积、房型、楼层等数据，以更好地判断房屋价格
           - 关于NOX，可否进一步采集房屋附近的化工厂、排放数据等以更好地判断房屋的价格 
 ### 3. Gradient Descent
+- Feature
+   - 不是一个ML算法，是一种基于搜索的最优化方法
+   - 作用：最小化一个损失函数
 - [模拟最小化y = (x - 2.5) ^ 2的梯度下降](https://github.com/jeremybaby/playML/blob/master/03_gradient_descent/01_imp_gradient_descent.ipynb)
     - learning rate取0.01
     - initial_theta取0.
+- [Linear Regression中使用梯度下降](https://github.com/jeremybaby/playML/blob/master/03_gradient_descent/02_imp_gradient_descent_in_Linear_Regression.ipynb)
 
 ### 4. PCA
 <hr/>
